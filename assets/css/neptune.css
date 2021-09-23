@@ -1,0 +1,64 @@
+.img-neptune {
+    width: 570px;
+    height: 580px;
+}
+.bloc-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 627px;
+    margin-right: 7px;
+    z-index: 2;
+}
+.bloc-right > .title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.bloc-right > .title > h1 {
+    margin: 0;
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+}
+.bloc-right > .title > h1:nth-child(2) {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.bloc-right > .center {
+    font-family: "Popins", Arial, sans-serif;
+    width: 512px;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+    color: #EEEEEE;
+}
+.bloc-right > .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.bloc-right > .bottom > .text-prix {
+    width: calc(100% - 270px);
+    text-align: center;
+}
+.bloc-right > .bottom > .text-prix > .prix {
+    color: #FFFF00;
+    font-size: 22px;
+    line-height: 10px;
+}
+.bloc-right > .bottom > .reservation {
+    background-color: #FF4BB5;
+    color: #FFFFFF;
+    border-radius: 4px;
+    width: 270px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}

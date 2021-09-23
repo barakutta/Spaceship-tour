@@ -1,0 +1,59 @@
+.img-mars {
+    width: 570px;
+    height: 580px;
+}
+main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main > img {
+    width: 570px;
+    height: 580px;
+    z-index: 1;
+}
+.bloc-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 580px;
+    margin-right: 7px;
+    z-index: 2;
+}
+.bloc-right > .title {
+    font-size: 30px;
+    width: 420px;
+}
+.bloc-right > .center {
+    font-family: "ScopeOne",Arial, sans-serif;
+    margin-bottom: 48px;
+    font-size: 36px;
+    width: 420px;
+}
+.bloc-right > .bottom {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bloc-right > .bottom > .text-prix > .prix {
+    color: #FFFF00;
+    font-size: 24px;
+}
+.bloc-right > .bottom > .reservation {
+    background-color: #FF4BB5;
+    color: #FFFFFF;
+    border-radius: 4px;
+    width: 270px;
+    height: 50px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <title>SpaceshipTour: Contact / Réservation</title>
+</head>
+
+<body>
+<header>
+    <nav>
+        <a href='index.html'>
+            <div id="nav-title">
+                <img id="logo" src="assets/icons/logo.svg" alt="logo de Spaceship tour" />
+                <h1>Spaceship tour</h1>
+            </div>
+        </a>
+        <ul id="nav-links">
+            <li><a href='index.html'>HOME</div></a></li>
+            <li><a href='neptune.html'>NEPTUNE</a></li>
+            <li><a href='mars.html'>MARS</a></li>
+            <li><a href='saturne.html'>SATURNE</a></li>
+            <li><a href='venus.html'>VENUS</a></li>
+            <li class="nav-active-link"><a href='contact.html'>Contact / Réservation</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-contact">
+    <section class="form-section">
+        <h1>Contact / Réservation</h1>
+        <form action="#" method="post">
+            <div id="contact-form">
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="utilisateur_nom">
+                </div>
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="utilisateur_prenom">
+                </div>
+                <div>
+                    <label for="mail">Adresse e-mail</label>
+                    <input type="email" id="mail" name="utilisateur_nom">
+                </div>
+                <div>
+                    <label for="msg">Commentaire</label>
+                    <textarea id="msg" name="utilisateur_message"></textarea>
+                </div>
+                <div class="radio-part">
+                    <div>
+                        <div>Contact / Réservation</div>
+                        <div class="radio-list">
+                            <input  type="radio" id="contactChoice" name="contact-reservation" value="contact">
+                            <input type="radio" id="reservationChoice" name="contact-reservation"
+                                   value="reservation">
+                        </div>
+                    </div>
+                    <div>
+                        <div>Choix de la Croisière</div>
+                        <div id="croisiere-list">Neptune - Mars - Saturne - Vénus</div>
+                        <div class="radio-list">
+                            <input type="radio" id="croisiereChoiceNeptune" name="croisiereNeptune" value="neptune">
+                            <input type="radio" id="croisiereChoiceMars" name="croisiereMars" value="mars">
+                            <input type="radio" id="croisiereChoiceSaturne" name="croisiereSaturne" value="saturne">
+                            <input type="radio" id="croisiereChoiceVenus" name="croisiereVenus" value="venus">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input type="button" class="envoyer" value="Envoyer">
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="sentences-section">
+        <h2>Prêt à vous lancer dans <span class="reservation-sentence">l'espace</span> ?</h2>
+        <h3>Réservez dès <span class="reservation-sentence">maintenant</span></h3>
+            <img class="img-contact" src="assets/images/image-contact.png" alt="image contact">
+    </section>
+</main>
+
+<footer>
+    <div class="reseaux-sociaux">
+        <a href="#">
+            <button type="button" class="btn-reseaux" title="Instagram"><i class="fab fa-instagram"></i></button>
+        </a>
+        <a href="#">
+            <button type="button" class="btn-reseaux" title="Facebook"><i class="fab fa-facebook-f"></i></button>
+        </a>
+        <a href="#">
+            <button type="button" class="btn-reseaux" title="Github"><i class="fab fa-github"></i></button>
+        </a>
+        <a href="#">
+            <button type="button" class="btn-reseaux" title="Dribbble"><i class="fab fa-dribbble"></i></button>
+        </a>
+        <a href="#">
+            <button type="button" class="btn-reseaux" title="Tweeter"><i class="fab fa-twitter"></i></button>
+        </a>
+    </div>
+    <div class="copyright">Copyright 2021 - IT Akademy - created by Zack, Karim, Mubarak, Francois, Gérald et Mouaz
+    </div>
+</footer>
+</body>
+
+</html>

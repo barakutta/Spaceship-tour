@@ -1,0 +1,67 @@
+.img-venus {
+    width: 570px;
+    height: 580px;
+}
+main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main > img {
+
+    width: 570px;
+    height: 580px;
+    z-index: 1;
+}
+.bloc-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    z-index: 2;
+}
+.bloc-right > .title {
+    text-align: center;
+    font-size: 30px;
+}
+.bloc-right > .center {
+    font-family: "Popins", Arial, sans-serif;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #EEEEEE;
+    width: 90%;
+    margin-left: 5%;
+}
+.bloc-right > .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bloc-right > .bottom > .text-prix {
+    width: 270px;
+    text-align: center;
+    color: #FFFF00;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.bloc-right > .bottom > .reservation {
+    background-color: #FF4BB5;
+    color: #FFFFFF;
+    border-radius: 4px;
+    width: 270px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
